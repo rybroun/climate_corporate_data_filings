@@ -1,0 +1,22 @@
+[project]
+name = "company-carbon-lookup-backend"
+version = "0.1.0"
+description = "FastAPI backend for Company Carbon Lookup"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.34",
+    "asyncpg>=0.30",
+    "httpx>=0.28",
+    "pydantic-settings>=2.7",
+    "python-dotenv>=1.1",
+    "PyMuPDF>=1.25",
+    "anthropic>=0.52",
+    "supabase>=2.13",
+    "playwright>=1.52",
+    "sse-starlette>=2.2",
+]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
