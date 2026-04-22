@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     model_config = {
         "env_file": [
             "../.env",           # monorepo root
-            "../../.env",        # project root (Watershed Take Home Docs/)
+            "../../.env",        # project root
             ".env",              # backend dir itself
         ],
         "env_file_encoding": "utf-8",
